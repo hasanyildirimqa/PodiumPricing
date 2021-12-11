@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue= "Podium",
         dryRun = false,
-        tags ="@Smoke" ,
+        tags ="@Smoke4" ,
         plugin = {
                 "html:target/default-cucumber-reports.html",
                 "json:target/cucumber.json",

@@ -30,7 +30,6 @@ public class PricingHomePage extends BrowserUtils {
 
 
 
-
     public void setPricingVerification(String PricingHeader){
         Assert.assertEquals("Pricing header has failed",PricingHeader,PricingVerification.getText());
         System.out.println("Pricing header verification has passed");

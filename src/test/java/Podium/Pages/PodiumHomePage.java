@@ -19,14 +19,7 @@ public class PodiumHomePage extends BrowserUtils {
 
     @FindBy(xpath = "//a[@href='/pricing/']")
     private WebElement pricingButton;
-
-
-
-
-
-    public void setPricingButton(){
-        pricingButton.click();
-    }
+    public void setPricingButton(){ pricingButton.click(); }
 
 
 
